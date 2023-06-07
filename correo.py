@@ -1,7 +1,6 @@
 import smtplib
 # Establecer conexion al servidor del correo SMTP
 conexion = smtplib.SMTP(host='smtp.gmail.com', port=587)
-conexion.ehlo()
 
 # Encriptacion TlS
 conexion.starttls()
